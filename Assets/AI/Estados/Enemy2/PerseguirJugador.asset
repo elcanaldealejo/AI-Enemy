@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ed9f469dd46b54fa79d83ce2736f19, type: 3}
+  m_Name: PerseguirJugador
+  m_EditorClassIdentifier: 
+  Actions:
+  - {fileID: 11400000, guid: 0f6bce63fa6639d49954ade998023ca7, type: 2}
+  - {fileID: 11400000, guid: 2c880b4317c8e814a8d88534b71c5c26, type: 2}
+  Transitions:
+  - Decisiones: {fileID: 11400000, guid: 7d8918535135be646a65476d48cc0215, type: 2}
+    TrueState: {fileID: 11400000, guid: 1b06b8e29174ff043902d1593982b47f, type: 2}
+    FalseState: {fileID: 11400000}
+  - Decisiones: {fileID: 11400000, guid: bc41302134797214384f2d350cb18cb3, type: 2}
+    TrueState: {fileID: 11400000}
+    FalseState: {fileID: 11400000, guid: d67a7b2959a2d7c4fa085f6ad07bf1ed, type: 2}
