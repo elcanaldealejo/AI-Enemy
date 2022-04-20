@@ -17,12 +17,12 @@ public class DetectarLayer : AIDecisiones
    private bool Detectar(StateController controller){
      
        if(Physics2D.OverlapCircle(GameObject.Find(nameEnemy).GetComponent<Transform>().position,controller._objectEnemy2.radio,controller._objectEnemy2.layer)){
-            Debug.Log("SI sDetecto el layer");
+            //Debug.Log("SI Detecto el layer");
             controller._objectEnemy2.Persiguiendo=true;
             return true;
        }else{
            controller._objectEnemy2.Persiguiendo=false;
-        Debug.Log("NO se detecta Layer");
+            //Debug.Log("NO se detecta Layer");
        }
            
         return false;

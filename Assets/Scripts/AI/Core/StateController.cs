@@ -8,7 +8,7 @@ public class StateController : MonoBehaviour
 [SerializeField] private AIState currentState;
 [SerializeField] private AIState remainState=null; 
 
-//public PathFollow Path {get; set;} 
+//Aqui creamos llamados a los Scripts Base de cada Enemigo
 public Enemy1 _objectEnemy1=null;
 public Enemy2 _objectEnemy2=null;
 

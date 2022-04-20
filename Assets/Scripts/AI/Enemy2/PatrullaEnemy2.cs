@@ -58,6 +58,7 @@ public class PatrullaEnemy2 : AIAccion
     }
     private int PuntoCercano(StateController controller){
         int masCercano=0;
+        
         if(controller._objectEnemy2.RecorridoPatrulla.puntosPatrulla.Count >1){
 
             Vector3[] points = new Vector3[controller._objectEnemy2.RecorridoPatrulla.puntosPatrulla.Count];  
